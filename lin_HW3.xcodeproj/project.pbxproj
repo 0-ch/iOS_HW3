@@ -12,8 +12,9 @@
 		59CC185B291B781600F1299D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59CC185A291B781600F1299D /* Assets.xcassets */; };
 		59CC185E291B781600F1299D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59CC185D291B781600F1299D /* Preview Assets.xcassets */; };
 		59CC1867291B799E00F1299D /* BookingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59CC1866291B799E00F1299D /* BookingView.swift */; };
-		59CC186B291B79B300F1299D /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59CC186A291B79B300F1299D /* HistoryView.swift */; };
 		59CC186E291B79C400F1299D /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59CC186D291B79C400F1299D /* SettingView.swift */; };
+		59CC18782922376C00F1299D /* Music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 59CC18772922376C00F1299D /* Music.mp3 */; };
+		59CC187C29223D7900F1299D /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59CC187B29223D7900F1299D /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,8 +25,9 @@
 		59CC185D291B781600F1299D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		59CC185F291B781600F1299D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		59CC1866291B799E00F1299D /* BookingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingView.swift; sourceTree = "<group>"; };
-		59CC186A291B79B300F1299D /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
 		59CC186D291B79C400F1299D /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		59CC18772922376C00F1299D /* Music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Music.mp3; sourceTree = "<group>"; };
+		59CC187B29223D7900F1299D /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,8 +63,9 @@
 				59CC1856291B780E00F1299D /* lin_HW3App.swift */,
 				59CC1858291B780E00F1299D /* ContentView.swift */,
 				59CC1866291B799E00F1299D /* BookingView.swift */,
-				59CC186A291B79B300F1299D /* HistoryView.swift */,
 				59CC186D291B79C400F1299D /* SettingView.swift */,
+				59CC187B29223D7900F1299D /* MapView.swift */,
+				59CC18772922376C00F1299D /* Music.mp3 */,
 				59CC185A291B781600F1299D /* Assets.xcassets */,
 				59CC185F291B781600F1299D /* Info.plist */,
 				59CC185C291B781600F1299D /* Preview Content */,
@@ -135,6 +138,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59CC18782922376C00F1299D /* Music.mp3 in Resources */,
 				59CC185E291B781600F1299D /* Preview Assets.xcassets in Resources */,
 				59CC185B291B781600F1299D /* Assets.xcassets in Resources */,
 			);
@@ -149,7 +153,7 @@
 			files = (
 				59CC1867291B799E00F1299D /* BookingView.swift in Sources */,
 				59CC186E291B79C400F1299D /* SettingView.swift in Sources */,
-				59CC186B291B79B300F1299D /* HistoryView.swift in Sources */,
+				59CC187C29223D7900F1299D /* MapView.swift in Sources */,
 				59CC1859291B780E00F1299D /* ContentView.swift in Sources */,
 				59CC1857291B780E00F1299D /* lin_HW3App.swift in Sources */,
 			);

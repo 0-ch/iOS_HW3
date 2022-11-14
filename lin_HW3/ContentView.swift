@@ -18,9 +18,9 @@ struct ContentView: View {
                     BookingView()
                         .tabItem { Image(systemName: "ticket")
                             Text("訂票") }
-//                    HistoryView()
-//                        .tabItem { Image(systemName: "clock")
-//                            Text("紀錄") }
+                    MapView()
+                        .tabItem { Image(systemName: "map")
+                            Text("地圖") }
                     SettingView(mainColor:$mainColor)
                         .tabItem { Image(systemName: "gear")
                             Text("設定")

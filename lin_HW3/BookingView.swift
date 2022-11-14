@@ -21,7 +21,6 @@ struct BookingView: View
     @State var totalPrice = 0
     @State var mySeatColumn = "A"
     @State var mySeatRow = 1
-    
     let time = ["7:00","9:00","11:00","13:00","15:00","17:00","20:00","23:00",]
     @State private var goTime = 0
     var body: some View
@@ -32,10 +31,8 @@ struct BookingView: View
                 .scaledToFill()
                 .frame(width: 200, height: 50, alignment: .center)
                 .scaledToFill()
-            
             Group{
                 DatePicker("出發日期", selection: $goDate, in: Date()..., displayedComponents: .date)
-                
                 HStack(alignment: .top, spacing: 90)
                 {
                     Text("出發時間")
@@ -47,9 +44,7 @@ struct BookingView: View
                         }
                     }.pickerStyle(MenuPickerStyle())
                 }
-                
                 Toggle("大學生", isOn: $isStudentOn)
-                
                 Stepper(
                     onIncrement:
                         {
@@ -84,7 +79,6 @@ struct BookingView: View
                     }
             )
             .alert(isPresented: $showAlert, content: {
-               
                 if(isStudentOn)
                 {
                     totalPrice = totalPrice * Int(0.8)

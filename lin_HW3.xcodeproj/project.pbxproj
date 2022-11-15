@@ -15,6 +15,7 @@
 		59CC186E291B79C400F1299D /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59CC186D291B79C400F1299D /* SettingView.swift */; };
 		59CC18782922376C00F1299D /* Music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 59CC18772922376C00F1299D /* Music.mp3 */; };
 		59CC187C29223D7900F1299D /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59CC187B29223D7900F1299D /* MapView.swift */; };
+		59FC35DE292380570065B9FE /* iOS HW3-iphone 12 mini recorder.mov in Resources */ = {isa = PBXBuildFile; fileRef = 59FC35DD292380570065B9FE /* iOS HW3-iphone 12 mini recorder.mov */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		59CC186D291B79C400F1299D /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
 		59CC18772922376C00F1299D /* Music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Music.mp3; sourceTree = "<group>"; };
 		59CC187B29223D7900F1299D /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		59FC35DD292380570065B9FE /* iOS HW3-iphone 12 mini recorder.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "iOS HW3-iphone 12 mini recorder.mov"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				59CC186D291B79C400F1299D /* SettingView.swift */,
 				59CC187B29223D7900F1299D /* MapView.swift */,
 				59CC18772922376C00F1299D /* Music.mp3 */,
+				59FC35DD292380570065B9FE /* iOS HW3-iphone 12 mini recorder.mov */,
 				59CC185A291B781600F1299D /* Assets.xcassets */,
 				59CC185F291B781600F1299D /* Info.plist */,
 				59CC185C291B781600F1299D /* Preview Content */,
@@ -140,6 +143,7 @@
 			files = (
 				59CC18782922376C00F1299D /* Music.mp3 in Resources */,
 				59CC185E291B781600F1299D /* Preview Assets.xcassets in Resources */,
+				59FC35DE292380570065B9FE /* iOS HW3-iphone 12 mini recorder.mov in Resources */,
 				59CC185B291B781600F1299D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
